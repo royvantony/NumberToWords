@@ -1,0 +1,61 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "NumberToWords.TestClient/1.0.0": {
+        "dependencies": {
+          "NumberToWords.Models": "1.0.0",
+          "NumberToWords.Services": "1.0.0"
+        },
+        "runtime": {
+          "NumberToWords.TestClient.dll": {}
+        }
+      },
+      "System.ComponentModel.Annotations/5.0.0": {},
+      "NumberToWords.Models/1.0.0": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "5.0.0"
+        },
+        "runtime": {
+          "NumberToWords.Models.dll": {}
+        }
+      },
+      "NumberToWords.Services/1.0.0": {
+        "dependencies": {
+          "NumberToWords.Models": "1.0.0"
+        },
+        "runtime": {
+          "NumberToWords.Services.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NumberToWords.TestClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.ComponentModel.Annotations/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dMkqfy2el8A8/I76n2Hi1oBFEbG1SfxD2l5nhwXV3XjlnOmwxJlQbYpJH4W51odnU9sARCSAgv7S3CyAFMkpYg==",
+      "path": "system.componentmodel.annotations/5.0.0",
+      "hashPath": "system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    },
+    "NumberToWords.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NumberToWords.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
